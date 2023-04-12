@@ -1,0 +1,93 @@
+.book {
+  color: rgb(32, 33, 36); // primary
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%),
+    0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+.bookpic {
+  height: 190px;
+  width: 135px;
+  margin-right: 16px;
+  border-radius: 8px;
+}
+
+.bookinfo {
+  color: rgb(95, 99, 104); // seconday 
+  min-width: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bookinfo .title {
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 5%;
+  color: #5a5a5a;
+  max-width: 160px;
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.bookinfo .author {
+  font-size: 12px;
+  color: #5a5a5a;
+  font-style: normal;
+}
+
+.date {
+  font-size: 12px;
+  color: #5a5a5a;
+}
+
+.pages {
+  font-size: 12px;
+  color: #5a5a5a;
+}
+
+/* controls */
+.bookinfo {
+  position: relative;
+}
+
+.action-icons {
+  display: flex;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating-number {
+  margin-left: 6px;
+}
+
+.not-read {
+  color: #cf5f0c;
+  text-transform: uppercase;
+  font-size: 10px;
+  border: 1px solid #cf5f0c;
+  width: max-content;
+  padding: 2px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.completed {
+  color: #1cc724;
+  text-transform: uppercase;
+  font-size: 10px;
+  border: 1px solid #1cc724;
+  width: max-content;
+  padding: 2px;
+  font-weight: bold;
+  border-radius: 5px;
+}

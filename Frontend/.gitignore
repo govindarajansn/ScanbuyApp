@@ -1,0 +1,47 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Build output
+build/
+dist/
+
+# Environment variables
+.env
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.sublime-*
+*.sublime-workspace
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Testing frameworks
+jest-report/
+coverage/
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Production build files
+*.min.js
+*.min.css
+
+# Personal and sensitive information
+config.js
+.env.local
+.env.production
+.env.staging
+.env.test
+
+# Ignore dist folder in the root of the project
+/dist

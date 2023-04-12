@@ -1,0 +1,58 @@
+.edit-book-container {}
+
+.edit-book-title {
+  font-size: 24px;
+  color: #7b7878;
+  padding: 2%;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.pd-7 {
+  padding: 7px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 16px;
+  min-height: 150px;
+}
+
+button[type="submit"] {
+  display: inline-block;
+  background-color: #0179ca;
+  color: rgb(15, 14, 14);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button[type="button"] {
+  display: inline-block;
+  background-color: #ccc;
+  color: rgb(15, 14, 14);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+  background-color: #bdc2c9;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}

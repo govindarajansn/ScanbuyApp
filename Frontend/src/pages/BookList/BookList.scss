@@ -1,0 +1,28 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.books-container {
+  margin: 64px 32px 32px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
+.empty-books {
+  margin: auto;
+  color: #7a7777;
+}
+
+.book-title {
+  margin-top: 16px;
+  font-size: 25px;
+  margin-left: 35px;
+  color: #7a7777;
+}
+
+.pd-10 {
+  padding: 10px;
+}
