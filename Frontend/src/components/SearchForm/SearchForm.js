@@ -23,6 +23,9 @@ function SearchBox() {
 
     if (!isValidISBN(isbn)) {
       setError("Enter valid ISBN")
+      setBook(null)
+    } else {
+      setError("")
     }
 
     try {
